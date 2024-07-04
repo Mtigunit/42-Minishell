@@ -1,9 +1,7 @@
 # Minishell
 
-This README provides detailed information about the "Minishell" project, including its objectives, instructions, and requirements.
-
 ## Summary
-This project is about creating a simple shell, essentially your own little bash. You will learn a lot about processes and file descriptors.
+Minishell is a project aimed at creating a simple shell program akin to bash. It provides an opportunity to delve into processes and file descriptors. Written in C and adhering strictly to project norms, Minishell emphasizes robust error handling and memory management, prohibiting unexpected terminations and memory leaks. Key functionalities include displaying a prompt, implementing command history, executing commands from PATH or specified paths, handling quotes and special characters, managing redirections (>, <, >>, <<), supporting pipes (|), expanding environment variables ($), and implementing built-in commands like echo, cd, pwd, export, unset, env, and exit. The project also covers signal handling (ctrl-C, ctrl-D, ctrl-\) and allows for bonus features such as implementing &&, || with parenthesis, and supporting wildcard (*) in the current directory.
 
 ## Version
 7.1
